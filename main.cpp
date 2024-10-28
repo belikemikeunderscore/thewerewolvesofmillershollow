@@ -6,6 +6,7 @@ using namespace std;
 
 struct player{
     string id;
+    string name
     string character;
     string status;
 };
@@ -43,3 +44,14 @@ class villager{
     bool status;
 
 };
+
+
+Seer seer();
+//only one seer in the game
+Seer seer[] = {};
+Wolfs wolfs[] = {};
+Villager villagers[] = {};
+
+Wolfs wolf1(), wolf2(), wolf3(), wolf4();
+
+Villager villager1(), villager2(), villager3() 
